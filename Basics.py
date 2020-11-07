@@ -1,3 +1,27 @@
+# Method overloading: allowing different parameters for calling the same method
+
+# No direct Method Overloading in python but achievable using multipledispatch module.
+
+# def add(a,b):
+#     return a+b
+# def add(a,b,c):
+#     return a+b+c
+# add(2,3)
+
+
+# Method overriding: overwriting the functionality of a method defined in a parent class.
+
+# class A():          # Method Overriding
+#     def hello(self):
+#         print("From A")
+# class B(A):
+#     def hello(self):
+#         print("From B")
+# b = B()
+# b.hello()
+
+########################################################
+
 # a = [5,6,77,45,22,12,24]
 # b = [i for i in a if i % 2 != 0]
 # print(b)
