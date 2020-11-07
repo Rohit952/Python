@@ -19,30 +19,33 @@
 
 ##################################################
 # import random
-#
-#
-# def decorators():
-#     print("Decorators are Cool")
-#
-#
-# def another():
-#     print('Decorators use Closures')
-#
-#
+
 # def make_highlighter(func):
-#     annotations = ['+', '*']
-#     annotate = random.choice(annotations)
-#
+
 #     def highlight():
-#         print(annotate * 50)
+#         print('*' * 50)
 #         func()
-#         print(annotate * 50)
-#
+#         print('*' * 50)
+
 #     return highlight()
-#
-#
-# # another = make_highlighter(another)
+
 # @make_highlighter
+# def three():
+#     print('three')
+# # three = make_highlighter(three)
+
+#or
+
+# import random
+
+# def highlight(func):
+#     print('*' * 50)
+#     func()
+#     print('*' * 50)
+
+#     return highlight
+
+# @highlight
 # def three():
 #     print('three')
 
